@@ -8,7 +8,8 @@
     "dev-server": "webpack-dev-server",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "playground": "babel src/playground/counter-example.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "todolist": "babel src/playground/to-do-list.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    "todolist": "babel src/playground/to-do-list.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "test": "jest"
   },
   "author": "Marcelo Melo",
   "license": "MIT",
@@ -19,7 +20,8 @@
     "babel-plugin-transform-object-rest-spread": "6.23.0",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
-    "css-loader": "0.28.4",
+    "css-loader": "^2.1.1",
+    "jest": "20.0.4",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
@@ -36,6 +38,6 @@
     "uuid": "3.1.0",
     "validator": "^10.11.0",
     "webpack": "3.1.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack-dev-server": "^3.3.1"
   }
 }

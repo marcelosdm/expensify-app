@@ -9,7 +9,7 @@
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "playground": "babel src/playground/counter-example.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "todolist": "babel src/playground/to-do-list.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "test": "jest --watch"
+    "test": "jest --config=jest.config.json --watch"
   },
   "author": "Marcelo Melo",
   "license": "MIT",
@@ -21,10 +21,14 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "^3.3.5",
     "jest": "20.0.4",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
+    "raf": "^3.4.1",
     "react": "^16.7.0",
     "react-addons-shallow-compare": "15.6.0",
     "react-dates": "12.7.0",

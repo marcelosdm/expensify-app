@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ExpenseListItem = (
+export const ExpenseListItem = (
   { id, description, amount, createdAt } = props.expenses
 ) => (
   <div>

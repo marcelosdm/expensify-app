@@ -1,1 +1,4 @@
 node_modules/
+
+# Snapshots
+src/tests/components/__snapshots__/
